@@ -19,15 +19,82 @@
     <header class="h-[50px] flex justify-center items-center">
       <img src="./img/ARcademy.png" class="h-full aspect-square" />
     </header>
-    <main
-      class="h-[calc(100svh-50px-75px)] overflow-auto px-5 flex flex-col"
-    ></main>
+    <main class="h-[calc(100svh-50px-75px)] overflow-auto px-5 flex flex-col">
+      <h1 class="text-3xl font-bold">AR Games</h1>
+      <div class="py-2">
+        <div class="relative mt-2 rounded-md shadow-sm">
+          <div
+            class="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-3"
+          >
+            <i class="fa-solid fa-magnifying-glass text-gray-400"></i>
+          </div>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            class="block w-full rounded-md border-0 py-1.5 pl-10 text-gray-900 ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+            placeholder="Search"
+          />
+          <div
+            class="pointer-events-none absolute inset-y-0 right-0 flex items-center pr-3"
+          >
+            <i class="fa-solid fa-microphone text-gray-400"></i>
+          </div>
+        </div>
+      </div>
+      <div class="flex flex-col items-center justify-center gap-3 p-2">
+        <div class="w-full flex gap-2 items-center py-3">
+          <img
+            src="https://assets-prd.ignimgs.com/2023/08/11/waves-1691779663133.jpg"
+            class="rounded-lg aspect-square w-[85px]"
+          />
+          <div class="flex flex-col gap-2">
+            <p class="text-sm font-bold">Waves Around Us</p>
+            <div class="text-gray-500 flex text-xs justify-center flex-col">
+              <div><i class="bi bi-rocket-takeoff-fill"></i> 650 Launched</div>
+              <div><i class="bi bi-star-fill"></i> 4.75 / 5</div>
+            </div>
+            <div class="flex gap-2">
+              <span
+                class="inline-flex items-center rounded-full bg-red-50 px-2 py-1 text-xs font-medium text-red-700 ring-1 ring-inset ring-red-600/10"
+                >Physics</span
+              >
+            </div>
+          </div>
+          <button class="whitespace-nowrap ml-auto bg-black text-white rounded-md py-1 px-2 text-xs">
+            <i class="bi bi-rocket-takeoff-fill"></i> Launch
+          </button>
+        </div>
+        <div class="border-t-2 w-full flex gap-2 items-center py-3">
+          <img
+            src="https://play-lh.googleusercontent.com/-sQLnj5dYRB3kjK2TmJoO8IcDHc40QhY23zt5-4g74aySC_uo_lDCfEUkg8A9rgyKzG-"
+            class="rounded-lg aspect-square w-[85px]"
+          />
+          <div class="flex flex-col gap-2">
+            <p class="text-sm font-bold">Understanding Math</p>
+            <div class="text-gray-500 flex text-xs justify-center flex-col">
+              <div><i class="bi bi-rocket-takeoff-fill"></i> 450 Launched</div>
+              <div><i class="bi bi-star-fill"></i> 4.5 / 5</div>
+            </div>
+            <div class="flex gap-2">
+              <span
+                class="inline-flex items-center rounded-full bg-yellow-50 px-2 py-1 text-xs font-medium text-yellow-800 ring-1 ring-inset ring-yellow-600/20"
+                >Math</span
+              >
+            </div>
+          </div>
+          <button class="whitespace-nowrap ml-auto bg-black text-white rounded-md py-1 px-2 text-xs">
+            <i class="bi bi-rocket-takeoff-fill"></i> Launch
+          </button>
+        </div>
+      </div>
+    </main>
     <footer
       class="w-full fixed bottom-0 left-0 right-0 max-w-[365px] mx-auto flex text-xl h-[75px] justify-around shadow-2xl shadow-black"
     >
       <a
         href="./"
-        class="flex flex-col justify-center items-center text-blue-500 aspect-square"
+        class="flex flex-col justify-center items-center aspect-square"
       >
         <i class="bi bi-house-door"></i>
         <p class="m-0 text-xs font-bold">Home</p>
@@ -41,7 +108,7 @@
       </a>
       <a
         href="./game.html"
-        class="flex flex-col justify-center items-center aspect-square"
+        class="flex flex-col justify-center items-center aspect-square text-blue-500"
       >
         <i class="bi bi-controller"></i>
         <p class="m-0 text-xs font-bold">Games</p>
